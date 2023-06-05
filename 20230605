@@ -3,5 +3,5 @@ Objective: Build circuits monitoring PV panel/battery/AC load voltage/current, s
     √ Blink
     Read 3.3V voltage from board with 0-25V voltage sensor: Ongoing
         Using Arduino UNO to check voltage sensor functionality
-            √ 5V, 3.3V
+            √ 5V, √ 3.3V (same code)
     Read PV voltage and current, display on serial port
