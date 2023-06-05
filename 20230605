@@ -2,6 +2,8 @@ Objective: Build circuits monitoring PV panel/battery/AC load voltage/current, s
     √ Microcontroller type: Adafruit HUZZAH32 Feather
     √ Blink
     Read 3.3V voltage from board with 0-25V voltage sensor: Ongoing
-        Using Arduino UNO to check voltage sensor functionality
+        √ Using Arduino UNO to check voltage sensor functionality
             √ 5V, √ 3.3V (same code)
+        √ Using ESP32 Feather to measure Arduino UNO 5V, wrong answer -> either ESP32 Feather ADC problem or Code problem
+        Using same code but with ESP32 FireBeetle
     Read PV voltage and current, display on serial port
