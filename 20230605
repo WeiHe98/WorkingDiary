@@ -1,5 +1,6 @@
 Objective: Build circuits monitoring PV panel/battery/AC load voltage/current, sending data to microSD and cloud
     √ Microcontroller type: Adafruit HUZZAH32 Feather
     √ Blink
-    Read 3.3V voltage from board with 0-25V voltage sensor: Ongoing 
+    Read 3.3V voltage from board with 0-25V voltage sensor: Ongoing
+        Using Arduino UNO to check voltage sensor functionality
     Read PV voltage and current, display on serial port
