@@ -13,4 +13,6 @@ Objective: Build circuits monitoring PV panel/battery/AC load voltage/current, s
             ADC non-linearity: use look up table
                 https://www.upesy.com/blogs/tutorials/measure-voltage-on-esp32-with-adc-with-arduino-code#
                 https://github.com/e-tinkers/esp32-adc-calibrate
+            √ × Initial SD card with ESP32: CS defined as D7 is fine, but D3 is not working
+            Write sampled value to SD card
     Read PV voltage and current, display on serial port
