@@ -1,4 +1,4 @@
-Objective: Build circuits monitoring PV panel/battery/AC load voltage/current, sending data to microSD and cloud
+Objective: Build circuits monitoring PV panel/battery/AC load voltage/current, sending data to microSD and cloud. Using deep sleep mode to reduce power consumption
     √ Microcontroller type: Adafruit HUZZAH32 Feather
     √ Blink
     Read 3.3V voltage from board with 0-25V voltage sensor: Ongoing
