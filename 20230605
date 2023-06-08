@@ -8,11 +8,13 @@ Objective: Build circuits monitoring PV panel/battery/AC load voltage/current, s
             × wrong answer -> either ESP32 Feather ADC problem or Code problem
         Using same code but with ESP32 FireBeetle (FireBeetle 2 ESP32-E)
             √ Blink
-            × Measure 3.3V it produces with 0-25V voltage sensor: disconnect everything while still some value is detected from analog input
+            √ Measure 3.3V it produces with 0-25V voltage sensor: disconnect everything while still some value is detected from analog input
             Noise: Connect ADC pin with 0.1uF and ground; multisampling
             ADC non-linearity: use look up table
                 https://www.upesy.com/blogs/tutorials/measure-voltage-on-esp32-with-adc-with-arduino-code#
                 https://github.com/e-tinkers/esp32-adc-calibrate
             √ × Initial SD card with ESP32: CS defined as D7 is fine, but D3 is not working; why the center LED is on?
             Write sampled value to SD card
+            Wiring to detect PV panel/battery/AC load voltage/current
+            Write above values to SD card
     Read PV voltage and current, display on serial port
