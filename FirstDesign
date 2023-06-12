@@ -18,7 +18,9 @@ Objective: Build circuits monitoring PV panel/battery/AC load voltage/current, s
                     D6 should be the default CS pin of ESP32 per official tutorial, but somehow it is D7 that only works in my ESP32
                     Code copiyed from online needs to be AUTO FORMATTED
             √ Read values in SD card
-            Merge sd card code and time data
+            √ Merge sd card code and time data
+                when wifi is somehow disconnected, the code ceased to append data into SD card
+                it is also unnecessary to have access to real time every 10 seconds
             Write sampled value to SD card
             Wiring to detect PV panel/battery/AC load voltage/current
             Write above values to SD card
