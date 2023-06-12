@@ -15,8 +15,8 @@ Objective: Build circuits monitoring PV panel/battery/AC load voltage/current, s
                 https://github.com/e-tinkers/esp32-adc-calibrate
             √ × Initial SD card with ESP32: CS defined as D7 is fine, but D3 is not working; why the center LED is on?
                 Took me a LOT of time:
-                    D6 should be the default CS pin of ESP32, but somehow it is D7 that works in my ESP32
-                    Code copiyed from online needs to be auto formatted
+                    D6 should be the default CS pin of ESP32 per official tutorial, but somehow it is D7 that only works in my ESP32
+                    Code copiyed from online needs to be AUTO FORMATTED
             Write sampled value to SD card
             Wiring to detect PV panel/battery/AC load voltage/current
             Write above values to SD card
