@@ -1,12 +1,12 @@
 Objective: Build circuits monitoring PV panel/battery/AC load voltage/current, sending data to microSD and cloud. Using deep sleep mode to reduce power consumption
     √ Microcontroller type: Adafruit HUZZAH32 Feather
     √ Blink
-    Read 3.3V voltage from board with 0-25V voltage sensor: Ongoing
+    √ Read 3.3V voltage from board with 0-25V voltage sensor
         √ Using Arduino UNO to check voltage sensor functionality
             √ 5V, √ 3.3V (same code)
         √ Using ESP32 Feather to measure Arduino UNO 5V
             × wrong answer -> either ESP32 Feather ADC problem or Code problem
-        Using same code but with ESP32 FireBeetle (FireBeetle 2 ESP32-E)
+        √ Using same code but with ESP32 FireBeetle (FireBeetle 2 ESP32-E)
             √ Blink
             √ Measure 3.3V it produces with 0-25V voltage sensor: disconnect everything while still some value is detected from analog input
             Noise: Connect ADC pin with 0.1uF and ground; multisampling
