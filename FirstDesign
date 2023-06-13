@@ -15,7 +15,8 @@ Objective: Build circuits monitoring PV panel/battery/AC load voltage/current, s
                 https://github.com/e-tinkers/esp32-adc-calibrate
             √ × Initial SD card with ESP32: CS defined as D7 is fine, but D3 is not working; 
                 why the center LED is on?
-                    ? Seems FastLED write code into Flash, which is always executed. Can I use this feature to reduce power consumption?
+                    × Seems FastLED write code into Flash, which is always executed. Can I use this feature to reduce power consumption?
+                    Cannot figure out. Prepare to disconnect the RGB LED. Suspect D8 is somehow connected with D7. Each time SD Card is initialised with D7, RGB is on. 
                 Took me a LOT of time:
                     D6 should be the default CS pin of ESP32 per official tutorial, but somehow it is D7 that only works in my ESP32
                     Code copiyed from online needs to be AUTO FORMATTED
