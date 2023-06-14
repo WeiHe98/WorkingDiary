@@ -26,7 +26,7 @@ Objective: Build circuits monitoring PV panel/battery/AC load voltage/current, s
                 it is also unnecessary to have access to real time every 10 seconds
 ---0613---
     √ Use BJT to turn on/off external LED
-    
+    Failed to use ESP32 to control SD card connection with MOSFET. Probably because ESP32 pin output voltage is not big enough.
     
             Write sampled value to SD card
             Wiring to detect PV panel/battery/AC load voltage/current
