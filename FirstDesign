@@ -28,8 +28,9 @@ Objective: Build circuits monitoring PV panel/battery/AC load voltage/current, s
     √ Use BJT to turn on/off external LED
     Failed to use ESP32 to control SD card connection with MOSFET. Probably because ESP32 pin output voltage is not big enough.
 ---0617---
-    Use MOSFET to turn on/off external LED in Arduino UNO
-        2N3904 K21(NPN Transistor)
+    √ Use 2N3904 K21(NPN Transistor) to turn on/off external LED in Arduino UNO
+---0618---
+    × Trial failed to turn on/off SD card
 
             Write sampled value to SD card
             Wiring to detect PV panel/battery/AC load voltage/current
