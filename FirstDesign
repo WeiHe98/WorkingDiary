@@ -32,7 +32,7 @@ Objective: Build circuits monitoring PV panel/battery/AC load voltage/current, s
 ---0618---
     × Trial failed to turn on/off SD card
     Starting to calibrate voltage and current readings
-
+        Voltage: using multimeter to measure the resistance value, to make sure they are 30kOhm and 7.5KOhm
             Write sampled value to SD card
             Wiring to detect PV panel/battery/AC load voltage/current
             Write above values to SD card
