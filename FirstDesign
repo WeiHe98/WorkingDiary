@@ -31,6 +31,7 @@ Objective: Build circuits monitoring PV panel/battery/AC load voltage/current, s
     √ Use 2N3904 K21(NPN Transistor) to turn on/off external LED in Arduino UNO
 ---0618---
     × Trial failed to turn on/off SD card
+    Starting to calibrate voltage and current readings
 
             Write sampled value to SD card
             Wiring to detect PV panel/battery/AC load voltage/current
