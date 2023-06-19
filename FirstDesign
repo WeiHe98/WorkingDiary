@@ -36,7 +36,8 @@ Objective: Build circuits monitoring PV panel/battery/AC load voltage/current, s
         When measure 3.3v from ESP32, readings are lower; when measure 13.1v from solar panel, readings are higher.
 ---0619---
     Draw a look up table, found the correction relation is good for explanation why sometimes larger measured values and sometimes smaller values
-    But when test another pin (36), the ADC seems very good
+    But when test another pin (36), the ADC seems very good. Let's use original pin to test 3.3V.
+    Or, could it be voltage sensor problem?
 
             Write sampled value to SD card
             Wiring to detect PV panel/battery/AC load voltage/current
