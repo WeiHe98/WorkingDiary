@@ -38,6 +38,10 @@ Objective: Build circuits monitoring PV panel/battery/AC load voltage/current, s
     Draw a look up table, found the correction relation is good for explanation why sometimes larger measured values and sometimes smaller values
     But when test another pin (36), the ADC seems very good. Let's use original pin to test 3.3V.
     Or, could it be voltage sensor problem?
+---0625---
+    Was working on using Arduino MKR 1010 to collect data from api and display it. It worked!
+    Keep working on turn on and off SD card.
+
 
             Write sampled value to SD card
             Wiring to detect PV panel/battery/AC load voltage/current
