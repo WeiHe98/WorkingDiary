@@ -41,6 +41,9 @@ Objective: Build circuits monitoring PV panel/battery/AC load voltage/current, s
 ---0625---
     Was working on using Arduino MKR 1010 to collect data from api and display it. It worked!
     Keep working on turn on and off SD card.
+---0626---
+    Still working on turning on/off SD card.
+    First step should be control voltage of a single point in breadboard, making it 5V/0V (Logic High/Logic Low).
 
 
             Write sampled value to SD card
