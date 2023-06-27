@@ -44,7 +44,9 @@ Objective: Build circuits monitoring PV panel/battery/AC load voltage/current, s
 ---0626---
     Still working on turning on/off SD card.
     First step should be control voltage of a single point in breadboard, making it 5V/0V (Logic High/Logic Low).
-
+---0627---
+    The reason why SD card mount failed while using MOSFET to turn off is the voltage drop incuded by MOSFET. The Vcc fed into SD card is only 2.8v that is too low to power that.
+    Solution: using PNP mosfet which can be turned off by using negative voltage on base. To generate negative voltage, an op-amp circuit is needed.
 
             Write sampled value to SD card
             Wiring to detect PV panel/battery/AC load voltage/current
