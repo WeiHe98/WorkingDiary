@@ -51,6 +51,9 @@ Objective: Build circuits monitoring PV panel/battery/AC load voltage/current, s
     I've successfully achieved having a voltage output of 4.8V and 0V, using MOSFET with it's high side in series of resistor. BUT WHAT IS THE PRINCIPLE BEHIND IT? WHT LOW SIDE DOES NOT WORK?
     Reference link is below, saturation characteristics.
     https://www.electronics-tutorials.ws/transistor/tran_7.html#:~:text=When%20using%20the%20MOSFET%20as,than%20standard%20bipolar%20junction%20transistors.
+---0630---
+    Should keep down the voltage (around 3.3v) and the current required by the SD card while it can work normally.
+    Then design a circuit to satisfy such conditions.
 
             Write sampled value to SD card
             Wiring to detect PV panel/battery/AC load voltage/current
