@@ -47,6 +47,10 @@ Objective: Build circuits monitoring PV panel/battery/AC load voltage/current, s
 ---0627---
     The reason why SD card mount failed while using MOSFET to turn off is the voltage drop incuded by MOSFET. The Vcc fed into SD card is only 2.8v that is too low to power that.
     Solution: using PNP mosfet which can be turned off by using negative voltage on base. To generate negative voltage, an op-amp circuit is needed.
+---0629---
+    I've successfully achieved having a voltage output of 4.8V and 0V, using MOSFET with it's high side in series of resistor. BUT WHAT IS THE PRINCIPLE BEHIND IT? WHT LOW SIDE DOES NOT WORK?
+    Reference link is below, saturation characteristics.
+    https://www.electronics-tutorials.ws/transistor/tran_7.html#:~:text=When%20using%20the%20MOSFET%20as,than%20standard%20bipolar%20junction%20transistors.
 
             Write sampled value to SD card
             Wiring to detect PV panel/battery/AC load voltage/current
