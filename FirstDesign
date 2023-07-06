@@ -55,6 +55,9 @@ Objective: Build circuits monitoring PV panel/battery/AC load voltage/current, s
     Should keep down the voltage (around 3.3v) and the current required by the SD card while it can work normally.
     Then design a circuit to satisfy such conditions.
     Should have a series of experiments to obtain SD card V-I characteristics.
+---0705---
+    Tomorrow: contacanate, OLED display, WEB Server warning
+
 
             Write sampled value to SD card
             Wiring to detect PV panel/battery/AC load voltage/current
