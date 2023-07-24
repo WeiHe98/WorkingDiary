@@ -58,6 +58,9 @@ Objective: Build circuits monitoring PV panel/battery/AC load voltage/current, s
 ---0705---
     Tomorrow: contacanate, OLED display, WEB Server warning
 
+---0724---
+    Was working on TA and write a paper outline. Implemening isolated experiements for comparisons and Analog Discovery 2 usage
+
 
             Write sampled value to SD card
             Wiring to detect PV panel/battery/AC load voltage/current
