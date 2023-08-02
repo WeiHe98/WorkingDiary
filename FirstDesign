@@ -57,10 +57,16 @@ Objective: Build circuits monitoring PV panel/battery/AC load voltage/current, s
     Should have a series of experiments to obtain SD card V-I characteristics.
 ---0705---
     Tomorrow: contacanate, OLED display, WEB Server warning
-
 ---0724---
     Was working on TA and write a paper outline. Implemening isolated experiements for comparisons and Analog Discovery 2 usage
-
+---0802---
+    Read a paper, it emphasizes SD card SD communication method, and suitable CPU frequency to minimize power consumption.
+    Wrote some contents to paper draft.
+---0803---
+    Test reduced frequency power consumption
+    Test sleep mode power consumption
+    Test reduced WiFi intensity power consumption
+    Implement file system, try IOT system
 
             Write sampled value to SD card
             Wiring to detect PV panel/battery/AC load voltage/current
