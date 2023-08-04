@@ -69,6 +69,8 @@ Objective: Build circuits monitoring PV panel/battery/AC load voltage/current, s
     Introduce ULP co-programming
     https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/system/power_management.html
     Implement file system, try IOT system
+---0804---
+    Successfully changed CPU and APB frequency, but did not do Dynamic Frequency Scaling (is this necessary?)
 
             Write sampled value to SD card
             Wiring to detect PV panel/battery/AC load voltage/current
