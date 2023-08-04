@@ -64,7 +64,7 @@ Objective: Build circuits monitoring PV panel/battery/AC load voltage/current, s
     Wrote some contents to paper draft.
 ---0803---
     Test reduced frequency power consumption
-    Test deep sleep mode power consumption, also try arduino uno and esp32 feather
+    Test deep sleep mode power consumption, try different wake up method on power consumption, also try arduino uno and esp32 feather
     Test reduced WiFi intensity power consumption
     Implement file system, try IOT system
 
