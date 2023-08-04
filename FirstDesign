@@ -66,6 +66,8 @@ Objective: Build circuits monitoring PV panel/battery/AC load voltage/current, s
     Test reduced frequency power consumption
     Test deep sleep mode power consumption, try different wake up method on power consumption, also try arduino uno and esp32 feather
     Test reduced WiFi intensity power consumption
+    Introduce ULP co-programming
+    https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/system/power_management.html
     Implement file system, try IOT system
 
             Write sampled value to SD card
