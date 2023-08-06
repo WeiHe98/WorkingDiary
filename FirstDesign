@@ -71,7 +71,9 @@ Objective: Build circuits monitoring PV panel/battery/AC load voltage/current, s
     Implement file system, try IOT system
 ---0804---
     Successfully changed CPU and APB frequency, but did not do Dynamic Frequency Scaling (is this necessary?)
-
+---0806---
+    Successfully measured currents at different CPU frequency. (needs press reset button while powered by 3.3V pin).
+    CPU frequency below 80MHz will lower APB frequency as well. How to avoid this, still keep APB frequency max?
             Write sampled value to SD card
             Wiring to detect PV panel/battery/AC load voltage/current
             Write above values to SD card
